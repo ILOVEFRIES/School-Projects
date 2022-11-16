@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wilbert's Resume</title>
+
+    <script>
+      src = "jquery.js";
+    </script>
+    <script>
+      src = "bootstrap/js/bootstrap";
+    </script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Kosugi&display=swap"
+    />
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar-expand-sm bg-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="achievements.html">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="cinfo">
+      <p>Email: sutardjawilbert@gmail.com</p>
+      <p>Whatsapp: +44 7914 681 848</p>
+      <p>Instagram: wilbertsutardja</p>
+    </div>
+
+    <div class="enquiry">
+      <p>Or you could direct any enquiries by filling in this form below:</p>
+    </div>
+
+    <div class="container p-5" id="form-class">
+      <form>
+        <div class="row mb-3">
+          <div class="col-3"><p id="label">Name</p></div>
+          <div class="col-9">
+            <input
+              class="p-2"
+              id="naame"
+              type="text"
+              data-sb-validations="required"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-3"><p id="label">Email</p></div>
+          <div class="col-9">
+            <input
+              class="p-2"
+              id="email"
+              type="text"
+              data-sb-validations="required"
+            />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-3"><p id="label">Message</p></div>
+          <div class="col-9">
+            <textarea
+              class="p-2"
+              id="message"
+              type="text"
+              style="height: 10rem"
+              data-sb-validations="required"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="row mt-4 text-center">
+          <a id="submitButton" type="submit">Submit</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
